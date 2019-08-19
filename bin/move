@@ -6,8 +6,8 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!" #Outputs our opening message to the user.
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "] #Creates the spaces that will be filled on our board.
 
-puts "Where would you like to go?"
-input = gets.strip
+puts "Where would you like to go?" #Outputs a message that prompts the user to enter the value of the space they want to fill.
+input = gets.strip #Uses the 'gets' method to retrieve the user input and remove the whitespace & new lines
 
 index = input_to_index(input)
 move(board, index, "X")
