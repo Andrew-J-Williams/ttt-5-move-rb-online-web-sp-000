@@ -14,5 +14,5 @@ def input_to_index(number) #Method accepts one argument, the user's input.
 end
 
 def move(array, index, value = "X") #Defines 3 arguments: the board array, the index value the user chose, and the value of their character.
-  array[index] = value
+  array[index] = value #Takes our array with empty spaces, selects a value, and sets that value equal to the user character.
 end
