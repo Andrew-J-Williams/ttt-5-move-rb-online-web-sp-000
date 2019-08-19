@@ -14,5 +14,5 @@ def input_to_index(number) #Method accepts one argument, the user's input.
 end
 
 def move(array, index, value = "X")
-
+  array[index] = value
 end
