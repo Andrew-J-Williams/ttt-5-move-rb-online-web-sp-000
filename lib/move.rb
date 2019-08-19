@@ -13,6 +13,6 @@ def input_to_index(number) #Method accepts one argument, the user's input.
   #We then subtract 1 since the array starts with a value of zero, not one.
 end
 
-def move(array, index, value = "X")
+def move(array, index, value = "X") #Defines 3 arguments: 
   array[index] = value
 end
