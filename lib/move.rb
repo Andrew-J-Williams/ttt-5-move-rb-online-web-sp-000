@@ -12,5 +12,3 @@ def input_to_index(number) #Method accepts one argument, the user's input.
   number.to_i-1 #The '.to_i' converts the value of a variable to an integer.
   #We then subtract 1 since the array starts with a value of zero, not one.
 end
-
-
